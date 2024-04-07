@@ -20,7 +20,7 @@ def github(a, b, c) -> str:
 
     return "https://github.com/{user}/{repo}/blob/main/{filename}".format(user=user, repo=repo, filename=filename)
 
-github("chengx0828", "UW-ECON481", "Assignment_2")
+github("chengx0828", "UW-ECON481", "Assignment_2.py")
 
 # %% [markdown]
 # Exercise 1
@@ -86,7 +86,6 @@ def estimate_ols(y: np.array, X: np.array) -> np.array:
 shapetest = estimate_ols(y, X)
 print(shapetest.shape)
 print(estimate_mle(y, X))
-
 
 
 
